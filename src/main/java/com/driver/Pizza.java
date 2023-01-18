@@ -64,7 +64,7 @@ public class Pizza {
             str.append("Extra Cheese Added: " + 80 + '\n');
         }
         if(this.isExtraToppingAdded){
-            str.append("Extra Toppings Added: " + 70 + '\n');
+            str.append("Extra Toppings Added: " + toppings + '\n');
         }
         if(this.isTakeAway){
             str.append("Paperbag Added: " + 20 + '\n');
